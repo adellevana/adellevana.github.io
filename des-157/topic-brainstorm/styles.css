@@ -160,6 +160,10 @@ a:active {
   line-height: 50px;
 }
 
+img {
+  width:330px;
+}
+
 footer {
   box-sizing: border-box;
   text-align: center;
