@@ -154,6 +154,12 @@ a:active {
   color: black;
 }
 
+#home {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 footer {
   box-sizing: border-box;
   text-align: center;
