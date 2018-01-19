@@ -64,7 +64,7 @@ span {
   letter-spacing: 1px;
   line-height: 35px;
   position: relative;
-  top: 95px;
+  top: 85px;
 }
 
 #mySketch {
@@ -154,6 +154,12 @@ a:hover {
 a:active {
   text-decoration: none;
   color: black;
+}
+
+#guide {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 12px;
 }
 
 footer {
