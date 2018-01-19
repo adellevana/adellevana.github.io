@@ -1,28 +1,41 @@
-var ctr = 0;
+var stk = 3;
 
 function setup()
 {
   var myCanvas = createCanvas(794, 244);
   myCanvas.parent('mySketch');
   smooth();
+  stroke(0);
 }
 
 function draw()
 {
-    strokeWeight(mouseX/100);
-    if(ctr == 0) {
-      fill(0);
-      strokeWeight(0);
-      textSize(14);
+    if(mouseIsPressed)
+    {
+      strokeWeight(stk);
+      line(mouseX, mouseY, pmouseX, pmouseY);
     }
+}
 
-    if (mouseIsPressed)  {
-      clear();
-    }
+function keyPressed()
+{
+  if(keyCode == 8)
+  {
+    clear();
+  }
 
-    fill(255);
-    textSize(40);
+  if(keyCode == 49)
+  {
+    stk = 1;
+  }
 
-    line(mouseX, mouseY, pmouseX, pmouseY);
-    ctr++;
+  if(keyCode == 50)
+  {
+    stk = 3;
+  }
+
+  if(keyCode == 51)
+  {
+    stk = 6;
+  }
 }
