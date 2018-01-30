@@ -1,0 +1,109 @@
+body {
+  height: 1000px;
+  font-family: sans-serif;
+  font-size: 100%;
+}
+
+header {
+  min-width: 500px;
+}
+
+h1,
+article {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 44px;
+  font-weight: normal;
+  color: black;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+article {
+  width: 80%;
+  min-width: 700px;
+  border-radius: 0px 125px;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  border-top: 4px solid black;
+  padding: 30px;
+  color: black;
+}
+
+div {
+  margin: 5%;
+}
+
+label {
+  width: 80px;
+  text-align: right;
+  display: inline-block;
+  padding-right: 5%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 3%;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid black;
+  color: black;
+}
+
+input[type="text"]:focus {
+  color: black;
+}
+
+div:last-child {
+  text-align: center;
+}
+
+input[type="reset"],
+input[type="submit"] {
+  width: 25%;
+  margin: 2%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  border: 3px black solid;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+section p {
+  color: black;
+  width: 80%;
+  min-width: 700px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 28px;
+  border: 4px solid black;
+  border-radius: 125px 0px;
+}
+
+img {
+  width: 300px;
+  display: block;
+  margin-top: 40px;
+  margin-left: 40%;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
