@@ -1,0 +1,148 @@
+body {
+  width: 100%;
+  margin: auto;
+}
+
+#my-bag {
+  width: 400px;
+  height: 600px;
+  position: relative;
+  align-items: center;
+  margin: auto;
+}
+
+#my-bag img {
+  position: absolute;
+}
+
+#earphones {
+  left: 48px;
+  top: 295px;
+  display: block;
+  opacity: 0;
+}
+
+#earphonesInfo {
+  position: absolute;
+  width: 250px;
+  left: -300px;
+  top: 200px;
+  opacity: 0;
+  font-family: avenir, sans-serif;
+  font-size: 70%;
+}
+
+#phone {
+  left: 160px;
+  top: 293px;
+  display: block;
+  opacity: 0;
+}
+
+#phoneInfo {
+  position: absolute;
+  width: 250px;
+  top: 200px;
+  right: -300px;
+  opacity: 0;
+  font-family: avenir, sans-serif;
+  font-size: 70%;
+}
+
+#wallet {
+  left: 56px;
+  top: 395px;
+  display: block;
+  opacity: 0;
+}
+
+#walletInfo {
+  position: absolute;
+  width: 250px;
+  left: -300px;
+  top: 400px;
+  opacity: 0;
+  font-family: avenir, sans-serif;
+  font-size: 70%;
+}
+
+#keys {
+  left: 201.5px;
+  top: 394px;
+  display: block;
+  opacity: 0;
+}
+
+#keysInfo {
+  position: absolute;
+  width: 250px;
+  right: -300px;
+  top: 400px;
+  opacity: 0;
+  font-family: avenir, sans-serif;
+  font-size: 70%;
+}
+
+footer {
+  font-family: avenir, sans-serif;
+  text-align: center;
+}
+
+a:link, a:visited, a:active {
+  font-family: avenir, sans-serif;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: avenir, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  #earphonesInfo {
+    position: absolute;
+    width: 250px;
+    left: 75px;
+    top: 750px;
+    opacity: 0;
+    font-family: avenir, sans-serif;
+    font-size: 70%;
+  }
+
+  #phoneInfo {
+    position: absolute;
+    width: 250px;
+    top: 950px;
+    left: 75px;
+    opacity: 0;
+    font-family: avenir, sans-serif;
+    font-size: 70%;
+  }
+
+  #walletInfo {
+    position: absolute;
+    width: 250px;
+    left: 75px;
+    top: 1150px;
+    opacity: 0;
+    font-family: avenir, sans-serif;
+    font-size: 70%;
+  }
+
+  #keysInfo {
+    position: absolute;
+    width: 250px;
+    left: 75px;
+    top: 1350px;
+    opacity: 0;
+    font-family: avenir, sans-serif;
+    font-size: 70%;
+  }
+
+}
