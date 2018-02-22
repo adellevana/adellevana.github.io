@@ -27,3 +27,13 @@ h1 {
   max-width: 500px;
   margin: 50px auto;
 }
+
+footer {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 11px;
+  padding: 20px;
+  line-height: 15px;
+}
