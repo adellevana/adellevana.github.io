@@ -54,7 +54,7 @@ header {
   margin-right: auto;
 }
 
-header p {
+#heading {
   display: block;
   font-family: "Montserrat";
   text-transform: uppercase;
