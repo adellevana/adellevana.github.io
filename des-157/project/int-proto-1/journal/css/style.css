@@ -31,3 +31,8 @@ h1 {
 form {
   margin: auto;
 }
+
+section {
+  width: 500px;
+  margin: auto;
+}
