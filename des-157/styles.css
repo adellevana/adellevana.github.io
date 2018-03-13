@@ -88,7 +88,7 @@ header {
 
 #content {
   width: 800px;
-  height: 350px;
+  height: 450px;
   margin-left: auto;
   margin-right: auto;
   font-family: "Montserrat";
@@ -115,7 +115,7 @@ header {
 #prj-col-1 {
   box-sizing: border-box;
   width: 400px;
-  height: 310px;
+  height: 360px;
   border-left: 3px solid black;
   padding-left: 30px;
   float: left;
@@ -124,7 +124,7 @@ header {
 #prj-col-2 {
   box-sizing: border-box;
   width: 400px;
-  height: 310px;
+  height: 360px;
   border-left: 3px solid black;
   padding-left: 30px;
   float: left;
