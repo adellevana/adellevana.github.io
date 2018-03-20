@@ -110,9 +110,11 @@ header {
 
 section {
   box-sizing: border-box;
-  width: 880px;
-  padding: 50px;
+  width: 817px;
+  margin-top: 50px;
+	margin-left: 50px;
   float: left;
+	text-align: justify;
 }
 
 h2 {
@@ -122,20 +124,20 @@ h2 {
 
 h3 {
   font-size: 12px;
-  padding-bottom: 30px;
+  padding-bottom: 75px;
 }
 
 p {
-  padding-bottom: 30px;
-  line-height: 20px;
+  padding-bottom: 40px;
+  line-height: 24px;
 }
 
 aside {
   overflow: auto;
   box-sizing: border-box;
-  padding: 40px;
-  width: 285px;
-  height: 200px;
+  padding: 55px;
+  width: 380px;
+  height: 400px;
   color: #000;
 }
 
@@ -144,24 +146,48 @@ a:link, a:visited, a:active {
   color: #000;
 }
 
+a:hover {
+	text-decoration: none;
+  color: #000;
+	opacity: 0.5;
+}
+
 img {
   display: block;
   padding-top: 10px;
   width: 50px;
+	padding-bottom: 30px;
 }
 
-.ml16 {
-  color: #FFF;
-  padding: 40px 0;
-  font-size: 84px;
-  text-transform: uppercase;
-  overflow: hidden;
+h1 {
+	font-size: 84px;
+	text-transform: uppercase;
+	color: #FFF;
+	position: absolute;
+	top: 150px;
+	left: 425px;
+}
+
+#sec-1, #sec-2 {
+	border-bottom: 1px solid grey;
+	padding-bottom: 50px;
+}
+
+#sec-3 {
+	padding-bottom: 30px;
+}
+
+#sec-2, #sec-3 {
+	padding-top: 40px;
+}
+
+#older-post {
 	text-align: center;
+	padding-top: 25px;
 }
 
-.ml16 .letter {
-  display: inline-block;
-	line-height: 20px;
+blockquote {
+	padding-top: 10px;
 }
 
 footer {
