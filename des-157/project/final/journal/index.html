@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Journal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="navbar">
+
+        <nav>
+          <img src="../login/solace1.png" id="logo">
+          <ul>
+            <li><a href="../home/proto.html">Home</a></li>
+            <li><a href="../home/proto.html#about">About</a></li>
+            <li><a href="../home/proto.html#contact">Contact</a></li>
+            <li><a href="../login/audiencetest.html">Logout</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <section id="speech">
+        <h1>Journal Entry</h1>
+        <p>
+          Narrate your day today. Speak into the microphone and watch your thoughts magically appear as a body of text. Click on the speech box to edit text.
+        </p>
+
+        <div class="speechContainer" contenteditable>
+          <em>Today,</em>
+        </div>
+      </section>
+
+      <section id="info">
+
+        <form id="form">
+          Entry Date: <input type="date" value="2018-03-21"><br><br>
+          <p>
+            Rate how you feel on a scale of one to five. Rating value will be plotted on a chart to track and monitor progress.<br><br>[Very Bad to Very Good]:
+          </p>
+          <div id="choice">
+            <input type="radio" name="scale" value=1>1 </input>
+            <input type="radio" name="scale" value=2>2</input>
+            <input type="radio" name="scale" value=3 checked>3</input>
+            <input type="radio" name="scale" value=4>4</input>
+            <input type="radio" name="scale" value=5>5</input>
+            <button id="myBtn">Save Entry</button>
+          </div>
+        </form>
+
+      </section>
+
+      <!-- Prompt -->
+
+      <div id="getPrompt" class="prompt">
+        <div class="prompt-content">
+          <span class="close">&times;</span>
+          <p>Your entry has been successfully saved!</p><br>
+          <p>Click <a href="../chart/set-chart.html">HERE</a> to view the saved result in the Archive page.</p>
+        </div>
+      </div>
+
+      <footer>
+        <a href="../../../../index.html">Back to Portal |</a>
+        <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5 |</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+      </footer>
+
+      <script src="js/index.js"></script>
+
+    </div>
+  </body>
+
+</html>
