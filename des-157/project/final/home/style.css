@@ -209,8 +209,10 @@ footer a:active {
 }
 
 #about article, #contact article {
+	clear: both;
 	box-sizing: border-box;
 	width: 1160px;
+	height: 580px;
 	margin: auto;
 	padding-top: 100px;
 	padding-left: 70px;
