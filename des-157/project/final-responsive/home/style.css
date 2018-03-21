@@ -1,0 +1,422 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of CSS Reset */
+
+/* main content */
+
+.container {
+  width: 1265px;
+  height: 100%;
+  margin: auto;
+	padding-top: 48px;
+  background-color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* navigation */
+
+.navbar {
+	width: 1265px;
+  height: 48px;
+	z-index: 1;
+  position: fixed;
+  top: 0;
+	background-color: #83B5E9;
+	font-size: 16px;
+}
+
+#logo {
+	padding-left: 50px;
+	padding-top: 10px;
+	width: 92px;
+}
+
+ul {
+  padding-left: 24px;
+  text-align: right;
+	position: absolute;
+	right: 28px;
+	top: 18px;
+}
+
+li {
+	padding-right: 24px;
+  display: inline;
+  float: left;
+}
+
+/* section */
+
+section {
+	clear: both;
+}
+
+#home article {
+  width: 280px;
+  height: 280px;
+  float: left;
+}
+
+#cap article{
+	width: 280px;
+  height: 210px;
+  float: left;
+}
+
+#cap h2 {
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+#journal-nav {
+  margin-left: 120px;
+	margin-right: 92px;
+	margin-top: 100px;
+	background-image: url("journal.png");
+	background-repeat: no-repeat;
+	background-size: 180px;
+	background-position: center;
+}
+
+#arch-nav {
+	margin-right: 100px;
+	margin-left: 92px;
+	margin-top: 100px;
+	background-image: url("charts.png");
+	background-repeat: no-repeat;
+	background-size: 180px;
+	background-position: center;
+}
+
+#unwind-nav {
+  margin-top: 100px;
+	background-image: url("unwind.png");
+	background-repeat: no-repeat;
+	background-size: 245px;
+	background-position: center;
+}
+
+#journal-cap, #arch-cap {
+	margin-left: 120px;
+	margin-right: 92px;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 22px;
+}
+
+#unwind-cap {
+  margin-top: 20px;
+	text-align: center;
+	line-height: 22px;
+}
+
+/* link style */
+
+a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+	opacity: 0.5;
+}
+
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:hover #journal-nav, a:hover #arch-nav, a:hover #unwind-nav {
+  opacity: 0.5;
+}
+
+footer a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+footer a:visited{
+	text-decoration: none;
+	color: #000;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #000;
+	opacity: 0.5;
+}
+
+footer a:active {
+	text-decoration: none;
+	color: #000;
+}
+
+/* other content */
+
+#about article, #contact article {
+	box-sizing: border-box;
+	width: 1160px;
+	margin: auto;
+	padding-top: 100px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 100px;
+	border-top: 1px solid grey;
+	text-align: justify;
+}
+
+#about h1, #contact h1 {
+	font-size: 44px;
+	float: left;
+	width: 375px;
+	height: 520px;
+}
+
+#about p, #contact p {
+	padding-top: 4px;
+	line-height: 22px;
+	width: 1010px;
+}
+
+h3 {
+	font-weight: bold;
+	line-height: 40px;
+}
+
+/* footer */
+footer {
+  clear: both;
+	box-sizing: border-box;
+	width: 1160px;
+	margin: auto;
+	padding-top: 40px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 40px;
+	border-top: 1px solid grey;
+	text-align: center;
+}
+
+/* responsive */
+
+@media screen and (max-width: 396px) {
+	body {
+		width: 385px;
+		height: 100%;
+		font-size: 14px;
+	}
+
+	/* main content */
+
+	.container {
+		width: 385px;
+	}
+
+	.navbar {
+		width: 385px;
+	  height: 48px;
+		z-index: 1;
+	  position: fixed;
+	  top: 0;
+		background-color: #83B5E9;
+		font-size: 14px;
+	}
+
+	#logo {
+		padding-left: 16px;
+		padding-top: 12px;
+		width: 82px;
+	}
+
+	ul {
+	  text-align: right;
+		position: absolute;
+		right: 14px;
+		top: 18px;
+	}
+
+	li {
+		padding-right: 14px;
+	  display: inline;
+	  float: left;
+	}
+
+  /* Navigation Section */
+
+	#home {
+		height: 1490px;
+	}
+
+	#home article {
+	  width: 385px;
+	  height: 1300px;
+	  clear: both;
+	}
+
+	#journal-nav {
+	  margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 26px;
+		background-image: url("journal.png");
+		background-repeat: no-repeat;
+		background-size: 180px;
+	}
+
+	#arch-nav {
+		margin-left: 0px;
+		margin-top: 80px;
+		background-image: url("charts.png");
+		background-repeat: no-repeat;
+		background-size: 180px;
+	}
+
+	#unwind-nav {
+		margin-left: 0px;
+	  margin-top: 80px;
+		background-image: url("unwind.png");
+		background-repeat: no-repeat;
+		background-size: 245px;
+	}
+
+	#home article {
+	  width: 385px;
+	  height: 385px;
+	  clear: both;
+	}
+
+	/* caption */
+
+	#cap article{
+		width: 275px;
+	  height: 270px;
+	  clear: both;
+	}
+
+	#journal-cap {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		line-height: 22px;
+		position: absolute;
+		top: 420px;
+		left: 54px;
+	}
+
+	#arch-cap {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 20px;
+		text-align: center;
+		line-height: 22px;
+		position: absolute;
+		top: 1330px;
+		left: 54px;
+	}
+
+	#unwind-cap {
+	  margin-top: 20px;
+		text-align: center;
+		line-height: 22px;
+		position: absolute;
+		top: 870px;
+		left: 54px;
+	}
+
+	/* about and contact */
+
+	#about article, #contact article {
+		box-sizing: border-box;
+		width: 375px;
+		margin: auto;
+		padding-top: 70px;
+		padding-left: 60px;
+		padding-right: 70px;
+		padding-bottom: 70px;
+		border-top: 1px solid grey;
+		text-align: justify;
+	}
+
+	#contact article {
+		height: 200px;
+	}
+
+	#about h1, #contact h1 {
+		font-size: 44px;
+		clear: both;
+		width: 375px;
+		height: 100px;
+	}
+
+	#about p, #contact p {
+		padding-top: 4px;
+		line-height: 22px;
+		width: 250px;
+	}
+
+	/* footer structure */
+
+	footer {
+		box-sizing: border-box;
+		width: 340px;
+		text-align: center;
+	  position: relative;
+	  top: 470px;
+		left: 0px;
+	}
+}

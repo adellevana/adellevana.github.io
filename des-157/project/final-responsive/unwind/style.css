@@ -1,0 +1,311 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of CSS Reset */
+
+/* main content */
+
+.container {
+  width: 1265px;
+  height: 100%;
+  margin: auto;
+	margin-top: 48px;
+  background-color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* navigation */
+
+.navbar {
+	width: 1265px;
+  height: 48px;
+	z-index: 1;
+  position: fixed;
+  top: 0;
+	background-color: #83B5E9;
+	font-size: 16px;
+	/*background-color: #8AA9E5;*/
+}
+
+#logo {
+	padding-left: 50px;
+	padding-top: 10px;
+	width: 92px;
+}
+
+ul {
+  padding-left: 24px;
+  text-align: right;
+	position: absolute;
+	right: 28px;
+	top: 18px;
+}
+
+li {
+	padding-right: 24px;
+  display: inline;
+  float: left;
+}
+
+nav a:link, nav a:visited, nav a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+nav a:hover {
+  text-decoration: none;
+	color: #FFF;
+  opacity: 0.5;
+}
+
+/* begin content */
+
+header {
+  width: 1265px;
+  height: 328px;
+	background-image: linear-gradient(to top, #48c6ef 0%, #83B5E9 100%);
+}
+
+section {
+  box-sizing: border-box;
+  width: 817px;
+  margin-top: 50px;
+	margin-left: 50px;
+  float: left;
+	text-align: justify;
+}
+
+h2 {
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 14px;
+  padding-bottom: 75px;
+}
+
+p {
+  padding-bottom: 40px;
+  line-height: 24px;
+}
+
+aside {
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 55px;
+  width: 380px;
+  height: 400px;
+  color: #000;
+}
+
+img {
+  display: block;
+  padding-top: 10px;
+  width: 50px;
+	padding-bottom: 30px;
+}
+
+h1 {
+	font-size: 84px;
+	text-transform: uppercase;
+	color: #FFF;
+	position: relative;
+	top: 100px;
+	left: 425px;
+}
+
+#sec-1, #sec-2 {
+	border-bottom: 1px solid grey;
+	padding-bottom: 50px;
+}
+
+#sec-3 {
+	padding-bottom: 30px;
+}
+
+#sec-2, #sec-3 {
+	padding-top: 40px;
+}
+
+#older-post {
+	text-align: center;
+	padding-top: 25px;
+}
+
+blockquote {
+	padding-top: 10px;
+}
+
+/* links */
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+  color: #000;
+	opacity: 0.5;
+}
+
+/* footer */
+
+footer {
+  clear: both;
+	box-sizing: border-box;
+	width: 1160px;
+	margin: auto;
+	padding-top: 40px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 40px;
+	border-top: 1px solid grey;
+	text-align: center;
+}
+
+/* responsive */
+
+@media screen and (max-width: 396px) {
+	body {
+		width: 385px;
+		height: 100%;
+	}
+
+	/* main content */
+
+	.container {
+		width: 385px;
+		font-size: 14px;
+	}
+
+	.navbar {
+		width: 385px;
+	  height: 48px;
+		z-index: 1;
+	  position: fixed;
+	  top: 0;
+		background-color: #83B5E9;
+		font-size: 14px;
+	}
+
+	#logo {
+		padding-left: 16px;
+		padding-top: 12px;
+		width: 82px;
+	}
+
+	ul {
+	  text-align: right;
+		position: absolute;
+		right: 14px;
+		top: 18px;
+	}
+
+	li {
+		padding-right: 14px;
+	  display: inline;
+	  float: left;
+	}
+
+	/* header */
+
+	header {
+	  width: 385px;
+	  height: 228px;
+		background-image: linear-gradient(to top, #48c6ef 0%, #83B5E9 100%);
+	}
+
+	h1 {
+		font-size: 54px;
+		text-transform: uppercase;
+		color: #FFF;
+		position: relative;
+		top: 80px;
+		left: 65px;
+	}
+
+	h2 {
+	  font-size: 24px;
+	  padding-bottom: 10px;
+		text-align: left;
+	}
+
+	section {
+	  box-sizing: border-box;
+	  width: 280px;
+	  margin-top: 50px;
+		margin-left: 50px;
+	  clear: both;
+		text-align: justify;
+		border-bottom: 1px solid grey;
+	}
+
+	aside {
+		clear: both;
+	  overflow: auto;
+	  box-sizing: border-box;
+	  padding: 55px;
+	  width: 380px;
+	  height: 300px;
+	  color: #000;
+	}
+
+	/* footer structure */
+
+	footer {
+		box-sizing: border-box;
+		width: 340px;
+		text-align: center;
+	  position: relative;
+	  bottom: 5px;
+		left: 0px;
+	}
+}

@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of CSS Reset */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+/* main content */
+
+.container {
+	width: 1280px;
+ 	height: 726px;
+	margin: auto;
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+	background-repeat: no-repeat;
+}
+
+/* logo image */
+
+img {
+  width: 400px;
+  position: relative;
+	top: 250px;
+	left: 420px;
+}
+
+/* login structure */
+
+form {
+	position: relative;
+	top: 280px;
+	left: 500px;
+}
+
+td {
+  text-align: right;
+  padding: 4px;
+}
+
+#btn {
+  text-align: center;
+  padding-top: 26px;
+}
+
+/* footer structure */
+
+footer {
+	box-sizing: border-box;
+	width: 374px;
+	text-align: center;
+  position: relative;
+  top: 450px;
+	left: 435px;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover {
+	text-decoration: none;
+  color: #FFF;
+	opacity: 0.5;
+}
+
+/* responsive */
+
+@media screen and (max-width: 396px) {
+	body {
+		width: 385px;
+		height: 685px;
+	}
+
+	/* main content */
+
+	.container {
+		width: 385px;
+	 	height: 685px;
+		margin: auto;
+	  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+		background-repeat: no-repeat;
+	}
+
+	img {
+	  width: 250px;
+	  position: relative;
+		top: 220px;
+		left: 75px;
+	}
+
+	/* login structure */
+
+	form {
+		width: 300px;
+		position: relative;
+		top: 250px;
+		left: 80px;
+	}
+
+	/* footer structure */
+
+	footer {
+		box-sizing: border-box;
+		width: 340px;
+		text-align: center;
+	  position: relative;
+	  top: 470px;
+		left: 25px;
+	}
+
+	#btn {
+	  text-align: center;
+	  padding-top: 26px;
+	}
+}
