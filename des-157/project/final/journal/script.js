@@ -2,12 +2,12 @@
 window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 recognition.interimResults = true;
-
+/* generate container */
 let p = document.createElement('p');
 let container = document.querySelector('.speechContainer');
 container.appendChild(p);
 console.log(container);
-
+/* put results to map */
 recognition.addEventListener('result', function(e) {
   const speechToText = Array.from(e.results)
   .map(result => result[0])
