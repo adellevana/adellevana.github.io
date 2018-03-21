@@ -55,7 +55,7 @@ table {
   width: 1265px;
   height: 100%;
   margin: auto;
-	padding-top: 48px;
+	margin-top: 48px;
   background-color: #FFF;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -92,154 +92,134 @@ li {
   float: left;
 }
 
-/* section */
-
-section {
-	clear: both;
+nav a:link, nav a:visited, nav a:active {
+	text-decoration: none;
+	color: #FFF;
 }
 
-#home article {
-  width: 280px;
-  height: 280px;
-  float: left;
+nav a:hover {
+	text-decoration: none;
+	color: #FFF;
+	opacity: 0.5;
 }
 
-#cap article{
-	width: 280px;
-  height: 210px;
-  float: left;
+/* begin content */
+
+/* welcome header */
+
+header {
+  width: 1265px;
+  height: 328px;
+	background-image: linear-gradient(to top, #48c6ef 0%, #83B5E9 100%);
 }
 
-#cap h2 {
-	font-size: 24px;
-	text-align: center;
-	font-weight: bold;
+#title {
+	font-size: 84px;
+	text-transform: uppercase;
+	color: #FFF;
+	position: relative;
+	top: 100px;
+	left: 425px;
+}
+
+/* speech recognition */
+
+.speechContainer {
+	max-width: 700px;
+	margin: 50px auto;
+	box-sizing: border-box;
+	padding: 20px;
+	background: white;
+	border-radius: 25px;
+  border: 4px solid black;
+	background-size: 100%;
+	position: relative;
+}
+
+#speech h1 {
+	padding-top: 100px;
+	font-size: 44px;
+  margin: auto;
 	padding-bottom: 20px;
 }
 
-#journal-nav {
-  margin-left: 120px;
-	margin-right: 92px;
-	margin-top: 100px;
-	background-image: url("journal.png");
-	background-repeat: no-repeat;
-	background-size: 180px;
-	background-position: center;
+p {
+	line-height: 20px;
 }
 
-#arch-nav {
-	margin-right: 100px;
-	margin-left: 92px;
-	margin-top: 100px;
-	background-image: url("charts.png");
-	background-repeat: no-repeat;
-	background-size: 180px;
-	background-position: center;
+form {
+	line-height: 20px;
+  margin: auto;
 }
 
-#unwind-nav {
-  margin-top: 100px;
-	background-image: url("unwind.png");
-	background-repeat: no-repeat;
-	background-size: 245px;
-	background-position: center;
+#choice {
+	letter-spacing: 15px;
 }
 
-#journal-cap, #arch-cap {
-	margin-left: 120px;
-	margin-right: 92px;
-	margin-top: 20px;
-	text-align: center;
-	line-height: 22px;
+section {
+  width: 700px;
+  margin: auto;
 }
 
-#unwind-cap {
-  margin-top: 20px;
-	text-align: center;
-	line-height: 22px;
+/* pop-up prompt */
+
+/* background */
+.prompt {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
 }
 
-/* link style */
+/* box */
 
-a:link {
+.prompt-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+/* close */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* link effects */
+
+a:link, a:visited, a:active {
 	text-decoration: none;
-	color: #FFF;
-}
-
-a:visited{
-	text-decoration: none;
-	color: #FFF;
+	color: #000;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #FFF;
-	opacity: 0.5;
-}
-
-a:active {
-	text-decoration: none;
-	color: #FFF;
-}
-
-a:hover #journal-nav, a:hover #arch-nav, a:hover #unwind-nav {
-  opacity: 0.5;
-}
-
-footer a:link {
-	text-decoration: none;
-	color: #000;
-}
-
-footer a:visited{
-	text-decoration: none;
-	color: #000;
-}
-
-footer a:hover {
-	text-decoration: none;
 	color: #000;
 	opacity: 0.5;
 }
 
-footer a:active {
-	text-decoration: none;
-	color: #000;
-}
-
-/* other content */
-
-#about article, #contact article {
-	box-sizing: border-box;
-	width: 1160px;
-	margin: auto;
-	padding-top: 100px;
-	padding-left: 70px;
-	padding-right: 70px;
+#info {
 	padding-bottom: 100px;
-	border-top: 1px solid grey;
-	text-align: justify;
 }
 
-#about h1, #contact h1 {
-	font-size: 44px;
-	float: left;
-	width: 375px;
-	height: 520px;
-}
-
-#about p, #contact p {
-	padding-top: 4px;
-	line-height: 22px;
-	width: 1010px;
-}
-
-h3 {
-	font-weight: bold;
-	line-height: 40px;
-}
-
-/* footer */
 footer {
   clear: both;
 	box-sizing: border-box;
@@ -252,5 +232,3 @@ footer {
 	border-top: 1px solid grey;
 	text-align: center;
 }
-
-/* background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%); */

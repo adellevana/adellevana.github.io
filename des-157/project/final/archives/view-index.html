@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <!-- attain links -->
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="view-style.css" type="text/css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Archives</title>
+  </head>
+
+  <body>
+    <!-- main content -->
+    <div class="container">
+      <!-- navigation -->
+      <div class="navbar">
+        <nav>
+          <img src="../login/solace.png" id="logo" alt="solace">
+          <ul>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../home/index.html#about">About</a></li>
+            <li><a href="../home/index.html#contact">Contact</a></li>
+            <li><a href="../login/index.html">Logout</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- preview of entry -->
+      <section id="data">
+        <h1>Archives Preview</h1>
+        <p>
+          Your entry has been logged. A preview of the saved entry can be seen below. Here are some suggestions on where to go next:<br><br>
+          Click <a href="../archives/index.html">HERE</a> to go to the Archives page for older entries. <br>
+          Click <a href="../journal/index.html">HERE</a> to go back to the Journal page to log another entry.
+        </p>
+      </section>
+      <!-- div of innerHTML -->
+      <section id="results" class="">
+        <div id="chartDiv"></div>
+        <div id="textDiv"></div>
+        <div id="prevDiv"></div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <a href="../../../../index.html">Back to Portal |</a>
+        <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5 |</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+      </footer>
+    </div>
+
+    <script src="view-script.js"></script>
+  </body>
+
+</html>

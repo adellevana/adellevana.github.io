@@ -47,33 +47,38 @@ table {
 	border-spacing: 0;
 }
 
-/* END OF CSS RESET */
+/* End of CSS Reset */
 
 body {
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+	font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
+/* main content */
+
 .container {
-  width: 400px;
-  margin: auto;
-  padding-top: 240px;
-	font-family: 'Montserrat', sans-serif;
+	width: 1280px;
+ 	height: 726px;
+	margin: auto;
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+	background-repeat: no-repeat;
 }
 
-header img {
-  display: block;
+/* logo image */
+
+img {
   width: 400px;
-  margin: auto;
-  padding-bottom: 30px;
+  position: relative;
+	top: 250px;
+	left: 420px;
 }
+
+/* login structure */
 
 form {
-  display: block;
-  width: 260px;
-  margin: auto;
+	position: relative;
+	top: 280px;
+	left: 500px;
 }
 
 td {
@@ -86,6 +91,17 @@ td {
   padding-top: 26px;
 }
 
+/* footer structure */
+
+footer {
+	box-sizing: border-box;
+	width: 374px;
+	text-align: center;
+  position: relative;
+  top: 450px;
+	left: 435px;
+}
+
 a:link, a:visited, a:active {
   text-decoration: none;
   color: #FFF;
@@ -95,13 +111,4 @@ a:hover {
 	text-decoration: none;
   color: #FFF;
 	opacity: 0.5;
-}
-
-footer {
-	box-sizing: border-box;
-	width: 374px;
-	margin: auto;
-	text-align: center;
-  position: absolute;
-  bottom: 30px;
 }
