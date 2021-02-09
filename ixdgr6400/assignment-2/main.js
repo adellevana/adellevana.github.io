@@ -20,7 +20,7 @@ function stepSequence() {
 }
 
 function intConverter(i){
-  i=i>>>0;
+  //i=i>>>0;
   if(i==0 || i==1){
     return i;
   }
