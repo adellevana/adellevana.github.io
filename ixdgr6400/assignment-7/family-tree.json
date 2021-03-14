@@ -1,11 +1,11 @@
-[{
+{
   name: "Prince George",
-  children: [
+  children:[
     {
-      name:"Prince William",
+      name: "Prince William",
       children:[
         {
-          name:"Prince Charles",
+          name: "Prince Charles",
           children:[
             {
               name: "Prince Philip",
@@ -32,7 +32,7 @@
       name: "Catherine Middleton",
       children:[
         {
-          name:"Michael Middleton",
+          name: "Michael Middleton",
           children:[
             {
               name: "Peter Middleton",
@@ -56,5 +56,5 @@
       ],
     },
   ],
-}];
+};
 
