@@ -1,53 +1,61 @@
-[{
-  "name": "Prince George",
-  "children": 
-    {
-      "name": "Prince William",
-      "children": 
-        {
-          "name": "Prince Charles",
-          "children":
-            {
-              "name": "Prince Philip"
-            },
-            {
-              "name": "Queen Elizabeth"
-            },
-     
-        },
-        {
-          "name": "Lady Diana",
-          "children":
-            {
-              "name": "Earl Spencer"
-            },
-            {
-              "name": "Frances Spencer"
-            },
-        },
-    },
-    {
-      "name": "Catherine Middleton",
-      "children":
-        {
-          "name": "Michael Middleton",
-          "children":
-            {
-              "name": "Peter Middleton",
-            },
-            {
-              "name": "Valerie Middleton",
-            },
-        },
-        {
-          "name": "Carole Middleton",
-          "children":
-            {
-              "name": "Ronald Goldsmith",
-            },
-            {
-              "name": "Dorothy Goldsmith",
-            },
-        },
-    },
-}];
+[
+  {
+    "name": "Prince George",
+    "children": [
+      {
+        "name": "Prince William",
+        "children": [
+          {
+            "name": "Prince Charles",
+            "children": [
+              {
+                "name": "Prince Philip"
+              },
+              {
+                "name": "Queen Elizabeth"
+              }
+            ]
+          },
+          {
+            "name": "Lady Diana",
+            "children": [
+              {
+                "name": "Earl Spencer"
+              },
+              {
+                "name": "Frances Spencer"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Catherine Middleton",
+        "children": [
+          {
+            "name": "Michael Middleton",
+            "children": [
+              {
+                "name": "Peter Middleton",
+              },
+              {
+                "name": "Valerie Middleton",
+              }
+            ]
+          },
+          {
+            "name": "Carole Middleton",
+            "children": [
+              {
+                "name": "Ronald Goldsmith",
+              },
+              {
+                "name": "Dorothy Goldsmith",
+              }
+            ]
+          },
+        ]
+      }
+    ]
+  }
+];
