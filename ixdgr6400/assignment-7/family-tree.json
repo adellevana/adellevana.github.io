@@ -1,59 +1,53 @@
 [{
   "name": "Prince George",
-  "children": [
+  "children": 
     {
       "name": "Prince William",
-      "children": [
+      "children": 
         {
           "name": "Prince Charles",
-          "children": [
+          "children":
             {
               "name": "Prince Philip"
             },
             {
               "name": "Queen Elizabeth"
             },
-          ],
+     
         },
         {
           "name": "Lady Diana",
-          "children": [
+          "children":
             {
               "name": "Earl Spencer"
             },
             {
               "name": "Frances Spencer"
             },
-          ],
         },
-      ],
     },
     {
       "name": "Catherine Middleton",
-      "children": [
+      "children":
         {
           "name": "Michael Middleton",
-          "children": [
+          "children":
             {
               "name": "Peter Middleton",
             },
             {
               "name": "Valerie Middleton",
             },
-          ],
         },
         {
           "name": "Carole Middleton",
-          "children": [
+          "children":
             {
               "name": "Ronald Goldsmith",
             },
             {
               "name": "Dorothy Goldsmith",
             },
-          ],
         },
-      ],
     },
-  ],
 }];
